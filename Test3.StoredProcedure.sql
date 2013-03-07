@@ -1,4 +1,5 @@
 Kunde 1
+weitere Änderung
 into Mastekunde.dbo.ArtikelPreis 
 from #tmp02 
 

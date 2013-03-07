@@ -10,7 +10,7 @@ FROM MDM.dbo._DB1_KOSTEN
 WHERE TE = ''Pick & Materialkosten pro AK''
 AND id = 7294
 -- Return costs
-DECLARE @fReturnCost float
+DECLARE hier auch float
 SELECT @fReturnCost = [Kostensatz]
 FROM MDM.dbo._DB1_KOSTEN
 Having [Kostenart] = ''Return Costs Warehouse / Article''

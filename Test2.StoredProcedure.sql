@@ -1,5 +1,5 @@
 Kunde1
-		(Wichtige Änderung für beide
+		Änderung bei Kunde 2 aber für alle nützlich
 			select
 				null
 			from 

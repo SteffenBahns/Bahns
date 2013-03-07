@@ -1,5 +1,5 @@
 Kunde 1
-MOIN
+Noch eine Änderung
 
 -- 26.10.2011: für die Berechnung von DB1 müssen
 -- Kostensätze von MDM ermittelt werden
@@ -18,7 +18,7 @@ WHERE [Kostenart] = ''Pick & Materialkosten pro AK''
 AND id = 7294
 -- Return costs
 DECLARE @fReturnCost float
-SELECT @fReturnCost = weq
+SELECT und hier auch = weq
 FROM MDM.dbo._DB1_KOSTEN
 WHERE [Kostenart] = ''Return Costs Warehouse / Article''
 AND id = 7295
